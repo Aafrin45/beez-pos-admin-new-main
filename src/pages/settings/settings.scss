@@ -1,0 +1,58 @@
+@import "../../variables";
+
+form {
+  padding: 20px;
+  .title {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .body {
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .imgContainer {
+      label {
+        margin-bottom: 10px;
+        font-size: small;
+      }
+      .img {
+        padding: 10px;
+        height: 140px;
+        width: 140px;
+        border-radius: 10%;
+      }
+    }
+    .inputContainer {
+      margin-bottom: 20px;
+      label {
+        font-size: small;
+        margin-right: 10px;
+      }
+      input[type="text"] {
+        background-color: #f9f9fb;
+        border-color: #cccccc;
+        padding: 10px 15px;
+        border-radius: 5px;
+        height: 35px;
+        width: 330px;
+      }
+    }
+  }
+  .button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

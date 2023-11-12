@@ -1,0 +1,123 @@
+.datatable {
+  height: 800px;
+  padding: 20px;
+
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+
+    &.NORMAL {
+      color: red;
+      background-color: rgba(196, 14, 14, 0.151);
+    }
+    &.ORDERED {
+      color: white;
+      background-color: rgb(13, 136, 252);
+    }
+    &.PAID {
+      color: white;
+      background-color: rgb(16, 133, 16);
+    }
+    &.HOLD {
+      color: white;
+      background-color: goldenrod;
+    }
+    &.INPROGRESS {
+      color: white;
+      background-color: goldenrod;
+    }
+    &.B2B {
+      color: goldenrod;
+      background-color: rgba(189, 189, 3, 0.103);
+    }
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+
+  .cellWithStatus {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.low {
+      background-color: rgba(249, 21, 21, 0.05);
+      color: orange;
+      padding-left: 5px;
+      padding-left: 5px;
+    }
+    &.out {
+      background-color: rgba(249, 21, 21, 0.05);
+      color: red;
+      padding-left: 5px;
+      padding-left: 5px;
+    }
+    &.high {
+      background-color: rgba(76, 212, 58, 0.155);
+      color: green;
+      padding-left: 5px;
+      padding-left: 5px;
+    }
+    &.B2B {
+      background-color: rgba(255, 217, 0, 0.05);
+      color: goldenrod;
+    }
+    &.Normal {
+      background-color: rgba(255, 0, 0, 0.05);
+      color: crimson;
+    }
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .viewButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      // color: darkblue;
+      border: 1px dotted;
+      cursor: pointer;
+    }
+
+    .deleteButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      // color: crimson;
+      border: 1px dotted;
+      cursor: pointer;
+    }
+  }
+}
