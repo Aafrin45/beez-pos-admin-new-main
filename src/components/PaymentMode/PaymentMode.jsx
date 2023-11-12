@@ -1,32 +1,4 @@
-// import React from "react";
-// import cash from "../../assets/cash.png"; 
 
-// console.log(cash)
-// function PaymentMode()
-// {<
-//    return img src={cash} alt="cash icon" />;
-// }
-// export default PaymentMode;
-
-
-// import React from "react";
-// import "./paymentmode.scss";
-// import cash from "../../assets/cash.png"; 
-
-// const PaymentMode= ({
-//   type
-// }) => {
-
-//   return (
-   
-//     <img className= "cash" src={cash} alt="cash icon" />
-//   );
-// };
-
-// export default PaymentMode;
-
-// PaymentMode.js
-// PaymentMode.js
 import React from "react";
 import "./paymentmode.scss";
 import cash from "../../assets/cash.png";
